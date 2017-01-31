@@ -1,0 +1,29 @@
+{
+    "name": "switzum/fake-object",
+    "description": "Fake Object is a PHP library that generates fake entities for you.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "De Coninck Laurent",
+            "email": "laurent@adlogix.eu"
+        },
+        {
+            "name": "Lognoul Jody",
+            "email": "lognoulj@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Switzum\\FakeObject\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Switzum\\FakeObject\\": [
+                "test"
+            ]
+        }
+    }
+}
