@@ -14,6 +14,6 @@ class Fake
      */
     public static function this($className)
     {
-        return $className;
+        return new $className;
     }
 }
